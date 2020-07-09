@@ -8,10 +8,10 @@ Each entry in `journal_name.json` will be exported as Roam Research pages.
 
 Currently, the script runs with Python3.6, and is tested on macOS and Ubuntu 16.04.
 
-* Python 3.6 or higher.
+* Python 3.6 or higher
     * You may need Homebrew, Anaconda, or pyenv to use the latest version of python.
 * Python packages
-    * See requirements.txt
+    * See requirements.txt.
 
 ## Install
 
@@ -37,7 +37,7 @@ $ cd dayone-to-roam
 ```sh
 # Show help (long-form only)
 $ python dayone-to-roam.py --help
-    Usage: dayone2md.py JSONPATH
+    Usage: dayone-to-roam.py JSONPATH
 
     Convert *.json exported by DayOne2.app to Roam Research
 
@@ -52,5 +52,5 @@ $ python dayone-to-roam.py export_dir/Journal.json
 
 1. This repository is modified from [dayone2md](https://github.com/tuxedocat/dayone2md)
 2. Roam Research json format details see [here](https://roamresearch.com/#/app/help/page/RxZF78p60)
-3. I don't handle the dayone journal metadata except create and update time, while other metadata can be handled easily.
-4. Note that every journal item in Day One will be imported as Daily Notes in Roam Research, with content under HEADLINE as you defined before.
+3. I don't handle the dayone journal metadata except create and update time, while other metadata can be handled easily
+4. Note that every journal item in Day One will be imported as Daily Notes in Roam Research, with content under HEADLINE as you defined before
